@@ -1,0 +1,255 @@
+@charset "UTF-8";
+
+:root {
+    --fonte-android: 'Android', cursive;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgba(255, 228, 196, 0.527);
+}
+
+header {
+    text-align: center;
+    
+}
+
+
+nav {
+    background-color: white;
+    background-image: linear-gradient(to right, rgb(96, 191, 225), transparent);
+    width: 990px;
+    margin: auto;
+    padding: 5px;
+    text-align: left;
+}
+    
+nav > a {
+    padding: 5px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif ;
+    color: black;
+    font-size: larger;
+    
+}
+
+nav a:hover {
+    background-image: linear-gradient(to bottom, rgb(2, 62, 123), transparent);
+    border-radius: 10px 10px 0px 0px;
+    transition: .5s;
+    color: white;
+}
+
+main {
+    background-color: white;
+    width: 980px;
+    height: 1150px;
+    margin: auto;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.315);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+section.top-modelos1 {
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+section.top-modelos2 {
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+
+div.h2 {
+    background-image: linear-gradient(to bottom, rgb(2, 62, 123), transparent);
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+h3 {
+    background-image: linear-gradient(to right, rgb(96, 191, 225), transparent);
+    color: rgb(9, 1, 163);
+    padding: 3px;
+    margin-bottom: 10px;
+    border-radius: 5px 0px;
+    font-family: "/fontes/idroid.otf"; /*REVISAR*/
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 20px;
+}
+
+    div.mod1 {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        border-radius: 5px;
+        top: 50%;
+        left: 4%;
+        
+    }
+
+    div.img1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    div.mod2 {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        border-radius: 5px;
+        top: 50%;
+        left: 20%;
+    }
+
+    div.img2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    div.mod3 {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        border-radius: 5px;
+        top: 50%;
+        left: 35%;
+    }
+
+    div.img3 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    div.mod1 {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        border-radius: 5px;
+        top: 50%;
+        left: 4%;
+        
+    }
+
+    div.img4 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    div.mod2 {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        border-radius: 5px;
+        top: 50%;
+        left: 20%;
+    }
+
+    div.img5 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    div.mod3 {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        border-radius: 5px;
+        top: 50%;
+        left: 35%;
+    }
+
+    div.img6 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    div.artigo1 {
+        width: 400px;
+        border: 1px solid black;
+        border-radius: 10px 0px;
+        padding: 10px;
+        margin-left: 39px;
+        text-align: justify;
+        margin-bottom: 15px;
+        box-shadow:  4px 4px 10px rgba(0, 0, 0, 0.539);
+    }
+
+    div.artigo2 {
+        width: 400px;
+        border: 1px solid black;
+        border-radius: 10px 0px;
+        padding: 10px;
+        margin-left: 39px;
+        text-align: justify;
+        box-shadow:  4px 4px 10px rgba(0, 0, 0, 0.539);
+    }
+
+    aside.container {
+        position: relative;
+        width: 400px;
+        height: 200px;
+        border: 1px solid black;
+        border-radius: 0px 10px;
+        top: -1.8%;
+        left: 530px;
+        transform: translate(4%, -304%);
+    }
+
+    div.social {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+
+
+
+
+    footer {
+        background-color:  rgb(2, 62, 123);
+        text-align: center;
+        color: white;
+        padding: 6px;
+        font-family: Arial, Helvetica, sans-serif ;
+        margin-top: 5px;
+    }
+
+
+    
